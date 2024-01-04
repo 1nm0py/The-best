@@ -31,7 +31,7 @@ nav{
     justify-content: center;
     align-items: center;
 }
-button{
+.but{
     border-radius: 7px ;
     border: none;
     width: 158px;
@@ -66,20 +66,27 @@ h1{
 .art2{
     width: 55%;
 }
+.btn{
+    display: flex;
+    padding-right: 20px;
+}
 .hightright{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.btn{
-    border-radius: 15px;
-    width: 350px;
-    display: flex;
-    justify-content: space-between;
+.buttt{ 
+    border-radius: 15px; 
+    width: 350px; 
+    display: flex; 
+    justify-content: space-between; 
 
-}
+} 
 .hight-right{
     background: none;
+    border-radius: 7px ;
+    width: 158px;
+    height: 60px;
     color: gray;
     box-shadow: inset 2px 2px 2px;
 }
@@ -107,7 +114,7 @@ h3{
     justify-content: space-between;
 }
 .girl_text{
-    margin-left: 100px;
+    margin: 100px 100px 100px 100px;
 }
 .art01{
     border-radius: 25px;
@@ -140,6 +147,7 @@ h4{
     width: 360px;
     height: 462px;
     border-top-left-radius: 40%;
+    box-shadow: 2px 1px 2px 1px; 
 }
 .all_menu_box{
     display: flex;
@@ -153,10 +161,25 @@ h4{
     display: flex;
     justify-content: space-between;
 }
-.btn{
+.buttt{
     display: flex;
     justify-content: center;
     align-items: center;
     width: 40px;
     height: 40px;
+    background: orange;
+    color: white;
+    border: none;
+}
+.Group-img{
+    width: 140px;
+    height: 30px;
+}
+.part-btn{
+    display: flex;
+    justify-content: space-between;
+}
+.Learn-More{
+    text-align: center;
+    color: orange;
 }
